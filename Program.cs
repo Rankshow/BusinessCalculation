@@ -15,8 +15,15 @@ class Program
 
         double totalAsset = TotalAsset(liability,equity);
 
-        Console.WriteLine($"The total asset result is {totalAsset}");   
-        
+        // ! condition for total assets...
+       if (totalAsset <= 500)
+       {
+        Console.WriteLine($"The total asset result is {totalAsset} very poor asset capital");   
+       }
+        else
+        {
+        Console.WriteLine($"The total asset is Very good with {totalAsset}");
+        }
 
     }
 
