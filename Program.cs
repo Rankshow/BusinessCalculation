@@ -16,12 +16,18 @@ class Program
 
         double netIncome = NetIncome(revenue, expense);
 
-        Console.WriteLine($"The NetIncome of the company is {netIncome}");
-
-
+        // * Controlling the code base with a conditional statement
+        if (netIncome <= 10)
+        {
+        Console.WriteLine($"The NetIncome of the company is {netIncome} which very low");
+        }
+        else 
+        {
+        Console.WriteLine($"The NetIncome of the company is {netIncome} which is fine");
+        }
     }
 
-    // * This will rhe inherit at the top-level code.
+    // * This will the inherit at the top-level code.
        private static double NetIncome(double revenue, double expenses)
        {
          double total = revenue - expenses;
@@ -34,3 +40,4 @@ class Program
          return result;
        }
 }
+
