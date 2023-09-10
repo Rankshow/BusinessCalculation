@@ -1,0 +1,15 @@
+C:\Users\CHIZZY STANLEOVIC\BusinessCalculation\bin\Debug\net7.0\BusinessCalculation.exe
+C:\Users\CHIZZY STANLEOVIC\BusinessCalculation\bin\Debug\net7.0\BusinessCalculation.deps.json
+C:\Users\CHIZZY STANLEOVIC\BusinessCalculation\bin\Debug\net7.0\BusinessCalculation.runtimeconfig.json
+C:\Users\CHIZZY STANLEOVIC\BusinessCalculation\bin\Debug\net7.0\BusinessCalculation.dll
+C:\Users\CHIZZY STANLEOVIC\BusinessCalculation\bin\Debug\net7.0\BusinessCalculation.pdb
+C:\Users\CHIZZY STANLEOVIC\BusinessCalculation\obj\Debug\net7.0\BusinessCalculation.csproj.AssemblyReference.cache
+C:\Users\CHIZZY STANLEOVIC\BusinessCalculation\obj\Debug\net7.0\BusinessCalculation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CHIZZY STANLEOVIC\BusinessCalculation\obj\Debug\net7.0\BusinessCalculation.AssemblyInfoInputs.cache
+C:\Users\CHIZZY STANLEOVIC\BusinessCalculation\obj\Debug\net7.0\BusinessCalculation.AssemblyInfo.cs
+C:\Users\CHIZZY STANLEOVIC\BusinessCalculation\obj\Debug\net7.0\BusinessCalculation.csproj.CoreCompileInputs.cache
+C:\Users\CHIZZY STANLEOVIC\BusinessCalculation\obj\Debug\net7.0\BusinessCalculation.dll
+C:\Users\CHIZZY STANLEOVIC\BusinessCalculation\obj\Debug\net7.0\refint\BusinessCalculation.dll
+C:\Users\CHIZZY STANLEOVIC\BusinessCalculation\obj\Debug\net7.0\BusinessCalculation.pdb
+C:\Users\CHIZZY STANLEOVIC\BusinessCalculation\obj\Debug\net7.0\BusinessCalculation.genruntimeconfig.cache
+C:\Users\CHIZZY STANLEOVIC\BusinessCalculation\obj\Debug\net7.0\ref\BusinessCalculation.dll
