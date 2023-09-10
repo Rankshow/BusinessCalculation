@@ -21,7 +21,7 @@ class Program
 
     }
 
-    // * This will rhe inherit at the top-level code.
+    // * This will the inherit at the top-level code.
        private static double NetIncome(double revenue, double expenses)
        {
          double total = revenue - expenses;
