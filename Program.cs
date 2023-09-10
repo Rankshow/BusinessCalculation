@@ -4,20 +4,19 @@ class Program
 {
     static void Main(string[] args)
     {
-        // ! This will render the netIncome, NB: we are using the long process in this case.
-        Console.WriteLine("***Let's start by calculating the NetIncome of the company**!!!");
-        Console.WriteLine("What is the Revenue?");
-        string? Revenue = Console.ReadLine();
-        double revenue = Convert.ToDouble(Revenue);
+        // * This will render the netIncome, NB: we are using the short process in this case.
+        Console.WriteLine("***Let's start by calculating the Total Asset of the company**!!!");
 
-        Console.WriteLine("What is the expenses?");
-        string? Expenses = Console.ReadLine();
-        double expense = Convert.ToDouble(Expenses);
+        Console.WriteLine("What is the liability?");
+        double liability = Convert.ToDouble(Console.ReadLine());
 
-        double netIncome = NetIncome(revenue, expense);
+        Console.WriteLine("What is the equity");
+        double equity = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine($"The NetIncome of the company is {netIncome}");
+        double totalAsset = TotalAsset(liability,equity);
 
+        Console.WriteLine($"The total asset result is {totalAsset}");   
+        
 
     }
 
