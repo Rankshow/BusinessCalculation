@@ -6,7 +6,7 @@ class Program
     {
         Console.WriteLine("What is your name?");
         string? name = Console.ReadLine();
-        Console.WriteLine($"Good Afternoon! {name}, your are welcome to our company.");
+        Console.WriteLine($"Good Afternoon! {name}, you are welcome to our company.");
         Console.WriteLine($"Please, {name} kindly choose your favourite country you would like to visit.");
         Console.WriteLine("1. Africa \n2. Europe");
         string? country = Console.ReadLine();
