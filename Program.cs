@@ -35,11 +35,11 @@ class Program
 
         if (result < 500)
         {
-        Console.WriteLine($"Please, the company total Net income is {result} which is very poor, we need to find a lasting solution.");
+        Console.WriteLine($"Your counrty total Net income is {result} which is very poor, we need to find a lasting solution.");
         }  
         else
         {
-        Console.WriteLine($"The company net income is {result} is good very fine.");
+        Console.WriteLine($"Your country net income is {result} is good very fine.");
         }      
 
       }
@@ -53,18 +53,26 @@ class Program
         double equity = Convert.ToDouble(Console.ReadLine()); 
 
         double answer = NetIncome(liability, equity);
-        Console.WriteLine($"Your total Net income is {answer}.");
+
+        if (answer <= 500) 
+        {
+        Console.WriteLine($"Your total asset is {answer} which is very poor.");
+        }
+        else
+        {
+          Console.WriteLine($"Your total asset is {answer} which is very good!!!");
+        }
 
       }
 
-    // ***NetIncome****.
+    // ***NetIncome****
        private static double NetIncome(double revenue, double expenses)
        {
          double total = revenue - expenses;
          return total;
        }
 
-    // ***TotalAsset****.
+    // ***TotalAsset****
        private static double TotalAsset(double liability, double equity)
        {
          double result = liability + equity;
